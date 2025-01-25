@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count FROM user WHERE username = '{{Input1.text}}' AND password = '{{Input2.text}}';
