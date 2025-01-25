@@ -33,7 +33,7 @@
   "mobileRightColumn": 30,
   "mobileTopRow": 32,
   "needsErrorInfo": false,
-  "onClick": "{{login.run().then((data) => {\n\tif(data[0].count > 0){\n\t\tshowAlert('Bem vindo!', 'success');\n\t}else{\n\t\tshowAlert('Usuário inválido', 'error');\n\t}\n}).catch(() => {\n  showAlert('Erro, procure o administrador', '');\n});}}",
+  "onClick": "{{login.run().then((data) => {\n\tif(data[0].count > 0){\n\t\tshowAlert('Bem vindo!', 'success');\n\t\t{{navigateTo(\"Home\")}}\n\t}else{\n\t\tshowAlert('Usuário inválido', 'error');\n\t}\n}).catch(() => {\n  showAlert('Erro, procure o administrador', '');\n});}}",
   "parentColumnSpace": 10.96875,
   "parentId": "xy25gd960w",
   "parentRowSpace": 10,

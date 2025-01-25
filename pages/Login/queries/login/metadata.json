@@ -1,6 +1,6 @@
 {
   "gitSyncId": "6782587bd325830dd0eca848_7b4463aa-eb65-45ee-b9f9-fa0bf6905821",
-  "id": "Page1_login",
+  "id": "Login_login",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -29,7 +29,7 @@
     ],
     "executeOnLoad": false,
     "name": "login",
-    "pageId": "Page1",
+    "pageId": "Login",
     "userSetOnLoad": false
   }
 }
